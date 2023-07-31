@@ -34,6 +34,7 @@
 //      * Key value pairs
 //      * Dot / square bracket notation
 //      * NOT ITERABLE
+Ordered
 //      */
 
 //     const obj = {

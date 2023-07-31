@@ -29,7 +29,10 @@ GOOD for -
         }
 
         peek() {
-            return this.items[this.items.length - 1]
+            if (!this.isEmpty()) {
+                return this.items[this.items.length - 1];
+            }
+            return null;
         }
 
         isEmpty() {
